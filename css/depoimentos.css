@@ -1,0 +1,34 @@
+.depoimentos {
+    padding-top: 70px;
+}
+
+.depoimentos h4 {
+    font-weight: 700;
+}
+
+.card-body-depoimentos {
+    display: flex;
+}
+
+.aluno {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+
+.card-body .icon-demoimentos {
+    float: left;
+    margin-right: 10px;
+    color: #131489;
+    background: none;
+    font-size:30px;
+}
+
+@media (max-width: 550) {
+    .card-body-depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
