@@ -1,0 +1,23 @@
+.contato {
+    background: #f8f9fa;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contato i {
+    color: #fff;
+    background: #131489;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.btn-contato {
+    background: #131489;
+    color: #fff;
+}
+
+.btn-contato:hover {
+    background: #ea7600;
+    color: #fff;
+}
