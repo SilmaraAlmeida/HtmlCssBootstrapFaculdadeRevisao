@@ -1,9 +1,6 @@
-.depoimentos {
-    padding-top: 70px;
-}
-
-.depoimentos h4 {
-    font-weight: 700;
+.card {
+    max-width: 600px;
+    width: 100%;
 }
 
 .card-body-depoimentos {
@@ -16,16 +13,15 @@
     margin-left: 70px;
 }
 
-
 .card-body .icon-demoimentos {
     float: left;
     margin-right: 10px;
     color: #131489;
     background: none;
-    font-size:30px;
+    font-size: 30px;
 }
 
-@media (max-width: 550) {
+@media (max-width: 550px) {
     .card-body-depoimentos {
         display: flex;
         flex-direction: column;
