@@ -4,6 +4,13 @@
     padding-bottom: 70px;
 }
 
+.card-body-cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .btn-cursos {
     background-color: none;
     color: #131489;
@@ -14,6 +21,7 @@
     justify-content: center;
     cursor: pointer;
     transition: 0.3s, transform 0.2s;
+    margin-top: auto;
 }
 
 .btn-cursos:hover {
