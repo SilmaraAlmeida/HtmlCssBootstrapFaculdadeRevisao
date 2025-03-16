@@ -1,3 +1,8 @@
+.card-body {
+    text-align: justify;
+    padding: 15px;
+}
+
 .card-body i {
     color: #fff;
     background: #131489;
