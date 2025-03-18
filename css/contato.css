@@ -12,9 +12,17 @@
     font-size: 30px;
 }
 
+/* .btn-contato {
+    background: #131489;
+    color: #fff;
+} */
+
 .btn-contato {
     background: #131489;
     color: #fff;
+    width: 100%;
+    /* padding: 12px 0; */
+    text-align: center;
 }
 
 .btn-contato:hover {
