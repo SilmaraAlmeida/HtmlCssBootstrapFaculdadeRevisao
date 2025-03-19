@@ -19,12 +19,13 @@
         <link rel="stylesheet" href="css/depoimentos.css">
         <link rel="stylesheet" href="css/sobre.css">
         <link rel="stylesheet" href="css/contato.css">
-        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/botao.css">
 
         <title>FASM - Muriaé</title>
     </head>
     <body>
-        <div class="bg-dark">
+        <div class="bg-dark" id="botao">
             <nav class="navbar navbar-dark navbar-expand-lg">
                 <div class="container">
                     <img src="img/logo_fasm.png" alt="">
@@ -69,9 +70,10 @@
                         recebem sólida formação técnica e humana, que fará a diferença profissional e pessoal em suas vidas.
                     </p>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <div class="col">
-                        <div class="container-fluid card h-100">
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100">
                             <div class="card-body card-body-cursos">
                                 <span class="card-title curso-span">Análise e Desenvolvimento de Sistemas</span>
                                 <h1>R$ 549,00 <span class="text-secondary">/ mensal.</span></h1>
@@ -82,8 +84,8 @@
                         </div>
                     </div>
         
-                    <div class="col">
-                        <div class="container-fluid card h-100">
+                    <div class="col-md-4">
+                        <div class="card h-100">
                             <div class="card-body card-body-cursos">
                                 <span class="card-title curso-span">Ciências Biológica</span>
                                 <h1>R$ 669,00 <span class="text-secondary">/ mensal.</span></h1>
@@ -94,8 +96,8 @@
                         </div>
                     </div>
         
-                    <div class="col">
-                        <div class="container-fluid card h-100">
+                    <div class="col-md-4">
+                        <div class="card h-100">
                             <div class="card-body card-body-cursos">
                                 <span class="card-title curso-span">História</span>
                                 <h1>R$ 599,00 <span class="text-secondary">/ mensal.</span></h1>
@@ -108,7 +110,6 @@
                 </div>
             </div>
         </div>
-        
 
         <div class="container depoimentos mb-5 mt-5">
             <h4 class="text-center">Depoimentos de nossos alunos</h4>
@@ -225,6 +226,11 @@
                 </form>
             </div>
         </div>
+
+        <!-- botão pra voltar no começo -->
+        <a href="#botao" class="botao">
+            <i class="bi bi-arrow-up"></i>
+       </a>
 
         <footer class="bg-dark pt-5 pb-4">
             <div class="container text-light text-center">
